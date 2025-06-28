@@ -1,8 +1,6 @@
 import { useForm, ValidationError } from '@formspree/react';
-import hero from '/hero.png'
 
 import { MdEmail } from "react-icons/md";
-import { useState } from 'react';
 
 import Lottie from "lottie-react";
 import doneAni from "../../public/animations/AnimationDone.json"

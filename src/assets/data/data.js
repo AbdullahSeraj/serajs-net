@@ -1,41 +1,82 @@
-import img_1 from "../images/1.png";
-import img_2 from "../images/2.png";
-import img_3 from "../images/3.png";
-import img_4 from "../images/4.png";
-import img_5 from "../images/5.png";
-import img_6 from "../images/1.png";
-import img_7 from "../images/7.png";
-import img_8 from "../images/8.png";
-import img_9 from "../images/9.png";
-import img_10 from "../images/10.png";
-import img_11 from "../images/11.png";
-import img_12 from "../images/12.png";
-import img_13 from "../images/13.png";
-import img_14 from "../images/14.png";
-
 export const projects = [
+  {
+    title: "Empower Your Business with Cutting-Edge Digital Solutions",
+    text: "We create custom websites, mobile apps, and software solutions to help businesses grow, innovate, and succeed in the digital world.",
+    img: "/imgs/21.png",
+    category: "js",
+    githubUrl: "https://github.com/AbdullahSeraj",
+    website: "https://technology-ndj6.onrender.com",
+  },
+  {
+    title: "Property Management & General Maintenance",
+    text: "Emergencies don’t wait. Our team is available 24/7 to resolve urgent maintenance issues promptly and professionally.",
+    img: "/imgs/20.jpg",
+    category: "js",
+    githubUrl: "https://github.com/AbdullahSeraj",
+    website: "https://property-management-uv0v.onrender.com",
+  },
+  {
+    title: "Delivery Landing Page",
+    text: "From local drop-offs to inter-emirate deliveries, we offer on-time service, competitive pricing, and exceptional care for every package — anytime, anywhere.",
+    img: "/imgs/19.png",
+    category: "js",
+    githubUrl: "https://github.com/AbdullahSeraj",
+    website: "https://delivery-h0hq.onrender.com",
+  },
+  {
+    title: "Legal Practice Management Dashboard",
+    text: "This project is a comprehensive law firm management system designed to streamline legal operations, case tracking, client management, and financial reporting.",
+    img: "imgs/18.jpg",
+    category: "mern",
+    githubUrl: "",
+    website: "https://lawyer-client-test.onrender.com",
+  },
+  {
+    title: "Al Noor Car Preparing",
+    text: "At Al Noor Car Preparing, we take pride in being your number one choice for reliable, high-quality auto repair and maintenance. Whether it's routine servicing or complex repairs, we’re here to keep your vehicle running smoothly and safely.",
+    img: "imgs/17.jpg",
+    category: "mern",
+    githubUrl: "",
+    website: "https://car-repair-services.onrender.com",
+  },
+  {
+    title: "NABD Project Management Services",
+    text: "NABD Project Management Services is your one-stop solution for building, launching, and managing successful healthcare businesses. we specialize in providing comprehensive solutions for launching new healthcare businesses and optimizing existing clinics. Whether you are looking to establish a new medical facility or enhance the operations of your current clinic, we offer end-to-end services tailored to your needs.",
+    img: "imgs/16.jpg",
+    category: "mern",
+    githubUrl: "",
+    website: "https://management-services.onrender.com",
+  },
+  {
+    title: "Dxn New E-Commerce Products",
+    text: "A MERN full-stack project can be a powerful tool for building a complete e-commerce platform focused on selling products.",
+    img: "imgs/15.jpg",
+    category: "mern",
+    githubUrl: "",
+    website: "https://dxn-new.web.app/",
+  },
   {
     title: "Full Stack E-Commerce Products",
     text: "A MERN full-stack project can be a powerful tool for building a complete e-commerce platform focused on selling products.",
-    img: img_14,
+    img: "imgs/14.jpg",
     category: "mern",
     githubUrl:
       "https://github.com/AbdullahSeraj/Full-Stack-E-Commerce-Products-New",
-    website: "https://full-stack-e-commerce-products.web.app",
+    website: "https://e-commerce-products-front.onrender.com/",
   },
 
-  {
-    title: "Clothes Ecommerce Website",
-    text: "Shopping a clothes e-commerce website with React.js allows you to create a dynamic and user-friendly online shopping experience for your customers.",
-    img: img_8,
-    category: "react",
-    githubUrl: "https://github.com/AbdullahSeraj/Clothes-Ecommerce-Website",
-    website: "https://clothes-ecommerce-websit-5e9eb.web.app/",
-  },
+  // {
+  //     title: "Clothes Ecommerce Website",
+  //     text: "Shopping a clothes e-commerce website with React.js allows you to create a dynamic and user-friendly online shopping experience for your customers.",
+  //     img: "/imgs/8.jpg",
+  //     category: "react",
+  //     githubUrl: "https://github.com/AbdullahSeraj/Clothes-Ecommerce-Website",
+  //     website: "https://clothes-ecommerce-websit-5e9eb.web.app/",
+  // },
   {
     title: "Food Delivery App",
     text: "It is a website built using React that allows you to buy food, browse food, and prepare food.",
-    img: img_9,
+    img: "/imgs/9.jpg",
     category: "react",
     githubUrl: "https://github.com/AbdullahSeraj/Food-Delivery-App",
     website: "https://food-delivery-app-76930.web.app/",
@@ -43,7 +84,7 @@ export const projects = [
   {
     title: "Mooncart E-Commerce",
     text: "It is a website created using React that allows you to buy furniture products and others.",
-    img: img_10,
+    img: "/imgs/10.jpg",
     category: "react",
     githubUrl: "https://github.com/AbdullahSeraj/Mooncart-E-Commerce",
     website: "https://mooncart-website.web.app",
@@ -51,7 +92,7 @@ export const projects = [
   {
     title: "Nike Store E-commerce Website",
     text: "An online store that interacts with the user, made using React. The user can buy the latest shoes.",
-    img: img_11,
+    img: "/imgs/11.jpg",
     category: "react",
     githubUrl: "https://github.com/AbdullahSeraj/Nike-Store-Ecommerce-Website",
     website: "https://nike-store-ecommerce-website.web.app",
@@ -59,7 +100,7 @@ export const projects = [
   {
     title: "Meal App",
     text: "It is a website built using React that allows you to buy food, browse food, and prepare food.",
-    img: img_12,
+    img: "/imgs/12.jpg",
     category: "vue",
     githubUrl: "https://github.com/AbdullahSeraj/Meal-App",
     website: "https://meals-app-82b37.web.app/",
@@ -67,7 +108,7 @@ export const projects = [
   {
     title: "Shopping E-Commerce Website",
     text: "An online store that interacts with the user. It was used by Vuejs. The user can buy products, add them to the cart, etc.",
-    img: img_13,
+    img: "/imgs/13.jpg",
     category: "vue",
     githubUrl: "https://github.com/AbdullahSeraj/Shopping-E-Commerce-Website",
     website: "https://shopping-e-commerce-webs-16761.web.app/",
@@ -75,7 +116,7 @@ export const projects = [
   {
     title: "Adventure Tour Website",
     text: "An online store where you can buy hiking products made using HTML & Css & Js.",
-    img: img_1,
+    img: "/imgs/1.jpg",
     category: "js",
     githubUrl: "https://github.com/AbdullahSeraj/Adventure-Tour-Website",
     website: "https://abdullahseraj.github.io/Adventure-Tour-Website/",
@@ -83,7 +124,7 @@ export const projects = [
   {
     title: "Build Travel Website",
     text: "Make your own trip This website makes it easy and simple to book your trip using HTML & Css & Js.",
-    img: img_2,
+    img: "/imgs/2.jpg",
     category: "js",
     githubUrl: "https://github.com/AbdullahSeraj/Build-Travel-Website",
     website: "https://abdullahseraj.github.io/Build-Travel-Website/",
@@ -91,7 +132,7 @@ export const projects = [
   {
     title: "Computer Website",
     text: "A site that displays computer tools, computer problems, information about computers, and more. It was created using JavaScript.",
-    img: img_3,
+    img: "/imgs/3.jpg",
     category: "js",
     githubUrl: "https://github.com/AbdullahSeraj/Computer-Website",
     website: "https://abdullahseraj.github.io/Computer-Website/",
@@ -99,7 +140,7 @@ export const projects = [
   {
     title: "Seraj Alddin Data Website",
     text: "A website that displays complete user data in detail. The website was created using HTML & Css & Js.",
-    img: img_4,
+    img: "/imgs/4.jpg",
     category: "js",
     githubUrl: "https://github.com/AbdullahSeraj/serajalddin",
     website: "https://abdullahseraj.github.io/serajalddin/",
@@ -107,7 +148,7 @@ export const projects = [
   {
     title: "Seraj Alddin Gaming Website",
     text: "Do you want a site to list the latest electronic games exclusively for you? All you have to do is enter this site and you will see all the details.",
-    img: img_5,
+    img: "/imgs/5.jpg",
     category: "js",
     githubUrl: "https://github.com/AbdullahSeraj/tempalate_4",
     website: "https://abdullahseraj.github.io/tempalate_4/",
@@ -115,7 +156,7 @@ export const projects = [
   {
     title: "Pet Service Shop Website",
     text: "If you have a pet and want to buy products for it such as food, clothes, etc., all you have to do is enter this site.",
-    img: img_6,
+    img: "/imgs/6.jpg",
     category: "js",
     githubUrl: "https://github.com/AbdullahSeraj/Pet-Service-Shop-Website",
     website: "https://abdullahseraj.github.io/Pet-Service-Shop-Website/",
@@ -123,7 +164,7 @@ export const projects = [
   {
     title: "Wealthome Website",
     text: "Let's take a break from work and go for a walk. This site provides you with hotel reservations, furnished apartments, and more.",
-    img: img_7,
+    img: "/imgs/7.jpg",
     category: "js",
     githubUrl: "https://github.com/AbdullahSeraj/Wealthome-Website",
     website: "https://abdullahseraj.github.io/Wealthome-Website/",
@@ -133,15 +174,15 @@ export const projects = [
 export const links = [
   {
     name: "About",
-    path: 'about'
+    path: "about",
   },
   {
     name: "Projects",
-    path: 'products'
+    path: "products",
   },
   {
     name: "Contact",
-    path: 'contact'
+    path: "contact",
   },
 ];
 
@@ -162,8 +203,8 @@ export const selects = [
     name: "HTML & CSS & JS",
     select: "js",
   },
-  {
-    name: "Vue Js",
-    select: "vue",
-  },
+  // {
+  //   name: "Vue Js",
+  //   select: "vue",
+  // },
 ];

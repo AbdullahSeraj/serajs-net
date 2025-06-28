@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { FaRegMoon } from "react-icons/fa6";
 import { CiLight } from "react-icons/ci";
 import { LuMenu } from "react-icons/lu";

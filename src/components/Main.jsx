@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { FaGithub } from "react-icons/fa";
 import { FaLink } from "react-icons/fa6";
 import { FaArrowRight } from "react-icons/fa6";
@@ -11,7 +11,7 @@ const Main = () => {
     const [select, setSelect] = useState("all");
     const [products, setProducts] = useState([])
 
-    const [value, copy] = useCopyToClipboard()
+    const [, copy] = useCopyToClipboard()
 
     useEffect(() => {
         if (select === 'all') {
@@ -36,7 +36,7 @@ const Main = () => {
                         <img src={pro.img} alt="" className='' />
                         <div className='px-5 py-3'>
                             <h3 className='font-semibold text-lg mb-1'>{pro.title}</h3>
-                            <p className='text-sm text-gray-500 mb-4'>{pro.text}</p>
+                            <p className='text-sm text-gray-500 mb-4'>{pro.text.length > 150 ? pro.text.substring(0, 150) + "..." : pro.text}</p>
                             <div className='flex justify-between items-center'>
                                 <div className='flex items-center gap-3'>
                                     <a href={pro.githubUrl} target='_blank'>

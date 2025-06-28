@@ -1,9 +1,6 @@
-import React, { useRef } from 'react'
+import { useRef } from 'react'
 import logo from "/me.png"
-import hero from '/hero.png'
 
-import { FaInstagram } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
 import { BsLinkedin } from "react-icons/bs";
 import { MdVerified } from "react-icons/md";
