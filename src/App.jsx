@@ -5,29 +5,6 @@ import Footer from './components/Footer'
 import Main from './components/Main'
 import { useSelector } from 'react-redux'
 
-/*
-{
-    "compilerOptions": {
-        "checkJs": true,
-        "jsx": "react-jsx",
-        "baseUrl": "src",
-        "resolveJsonModule": true,
-        "lib": [
-            "es6",
-            "dom",
-            "es2017"
-        ],
-    },
-    "include": [
-        "src"
-    ],
-    "exclude": [
-        "node_modules",
-        "build"
-    ]
-}
-*/
-
 function App() {
   const dark = useSelector((state) => state.dark.isDark)
 

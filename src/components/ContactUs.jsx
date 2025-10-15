@@ -1,7 +1,5 @@
 import { useForm, ValidationError } from '@formspree/react';
-
 import { MdEmail } from "react-icons/md";
-
 import Lottie from "lottie-react";
 import doneAni from "../../public/animations/AnimationDone.json"
 import contactUsAni from "../../public/animations/AnimationContactUs.json"
